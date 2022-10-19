@@ -1,0 +1,19 @@
+
+
+/* External CSS is formatted like internal CSS,
+ but it isn’t wrapped in <style> tags or placed in the head section of your HTML file.
+   it’s placed in an external file with the extension “.css.” In the head section,
+ you’ll just have to add a link to this external stylesheet */
+
+
+ body{
+    background-color: rgb(10, 27, 90);
+
+}
+
+h2{
+    color: rgb(127, 238, 17);
+}
+
+
+
