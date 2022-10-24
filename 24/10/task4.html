@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+       
+        .one{
+            display:grid;
+            grid-template-columns:auto;
+            grid-template-rows:60px 210px 115px ;
+            grid-template-areas: 
+            ' black1 black1 black1 black1 black1 black1'
+            'orange1 orange1 orange1 orange1 green1 green1'
+            'blue1 blue1 blue1 blue1  blue1 blue1';
+            row-gap:10px;     
+            column-gap:10px;     
+
+        }
+        .balck{
+            grid-area: black1;
+        }
+        .blue{
+            grid-area: blue1;
+        }
+    
+        .green{
+        grid-area: green1; 
+
+        }
+    
+    .orange{
+        grid-area:orange1
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="one">
+<div  class="balck" style="background-color:black ; "></div>
+<div class="orange" style="background-color: orange;"></div>
+<div  class="green" style="background-color: green;  "></div>
+<div  class="blue" style="background-color: blue; "></div>
+    </div>
+</body>
+</html>
