@@ -1,6 +1,5 @@
 #main {
     height: 800px;
-    text-align: center;
 }
 .one{
     display: inline-block;
@@ -9,6 +8,8 @@
     height: 250px;
     background-size: cover;
     margin: 80px;
+    text-align: center;
+
     
 }
 
